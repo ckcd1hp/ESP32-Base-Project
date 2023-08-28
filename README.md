@@ -17,8 +17,8 @@ This is a starter template for any future ESP32 projects.
 4. Serial Monitor output of ESP32 reboot.  Sometimes the ESP32 will reboot and you will want to know the reason or that a reboot even occurred.
 
 ## Libraries Used
-NTPClient
-AsyncElegantOTA
-ESPAsyncWebServer
-AsyncTCP (required by ESPAsyncWebServer)
-ESP32Time
+1. NTPClient
+2. AsyncElegantOTA
+3. ESPAsyncWebServer
+4. AsyncTCP (required by ESPAsyncWebServer)
+5. ESP32Time
