@@ -40,7 +40,7 @@ void WiFiGotIP(WiFiEvent_t event, WiFiEventInfo_t info)
     Serial.print("IP address: ");
     Serial.println(WiFi.localIP());
     // mdns responder for esp32.local
-    if (MDNS.begin("nftv2"))
+    if (MDNS.begin("MDNS_NAME"))
     {
         Serial.println("MDNS responder started, accessible via nftv2.local");
     }
